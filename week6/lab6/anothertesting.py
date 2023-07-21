@@ -1,0 +1,13 @@
+import difflib
+
+file_1 = []
+file_2 = []
+
+with open('k.txt') as f1, open('c.txt') as f2:
+    for item in f1:
+        if item != ' ':
+            file_1.append(item.strip())
+    for item2 in f2:
+        if item2 != ' ':
+            file_2.append(item2.strip())
+    print(file_1-file_2)
