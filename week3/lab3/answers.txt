@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: When sorting a set of reversed numbers, it will have to take a lot of steps to keep switching each pair. 
+
+sort2 uses: Merge sort
+
+How do you know?: Merge sort can less efforlessly deal with reversed numbers because it can continously cut the set in halve. 
+
+sort3 uses: Selection sort
+
+How do you know?: Even for a sorted set of numbers, this algorthim takes much longer than the others because it has to look for the smallest number in every step. 
